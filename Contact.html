@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Main Tags -->
+    <title>Portfolio-Bog'lanish</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--CSS Links -->
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="icon" href="./s1.png" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="main-header">
+      <div class="main-header__brand">
+        <a href="index.html">
+          <img src="./main-logo.jpg" alt="Logo" />
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <a
+          href="../index/Portfolio.html"
+          target="_blank"
+          class="main-navigation__item"
+          >Asosiy
+        </a>
+        <a href="#about-me" class="main-navigation__item">Men Haqimda</a>
+        <a href="#services" class="main-navigation__item">Xizmatlar</a>
+        <a href="#clients" class="main-navigation__item">Mijozlar</a>
+        <a href="#blog" class="main-navigation__item">Blog</a>
+        <a href="#partners" class="main-navigation__item">Sheriklar</a>
+        <a
+          href="../index/Contact.html"
+          class="main-navigation__item active"
+          target="_blank"
+          >Bog'lanish</a
+        >
+      </nav>
+    </header>
+    <!--/Header section-->
+
+    <!-- Contact Section -->
+      <section class="contact">
+        <div class="contact-title">Men bilan bog'laning</div>
+        <form action="/server.php" method="GET">
+          <textarea
+            rows="10"
+            placeholder="Xabaringizni kiriting"
+            name="message"
+          ></textarea>
+          <div class="half-flex">
+            <div class="contact_firstname">
+              <input
+                type="text"
+                placeholder="Ismingizni kiriting"
+                name="firstname"
+              />
+            </div>
+
+            <div class="contact_email">
+              <input
+                type="email"
+                placeholder="Emailingizni kiriting"
+                name="email"
+              />
+            </div>
+          </div>
+          <input type="text" placeholder="Xat mazmuni" name="subject" />
+          <button class="button contact_send" type="submit">
+            Xabar jo'natish
+          </button>
+        </form>
+      </section>
+    <!-- /Contact Section -->
+
+    <!--Footer section-->
+    <footer class="footer">
+      <div class="footer-brand">
+        <img src="./main-logo.jpg" alt="Logo" />
+      </div>
+      <nav class="footer-navigation">
+        <a href="#">Asosiy</a>
+        <a href="#">Men Haqimda</a>
+        <a href="#">Xizmatlar</a>
+        <a href="#">Mijozlar</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Sheriklar</a>
+        <a href="#">Bog'lanish</a>
+      </nav>
+      <ul class="footer-socials">
+        <a
+          href="https://t.me/Web_DDeveloper001"
+          target="_blank"
+          class="footer-social"
+        >
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+
+        <a
+          href="https://instagram.com/abdulaziz18_21"
+          target="_blank"
+          class="footer-social"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://Facebook.com/abdulaziz19_20"
+          target="_blank"
+          class="footer-social"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </ul>
+      <p class="footer-text">
+        Copyright 2022 All right reserved|This template is made by Abdulaziz
+      </p>
+    </footer>
+    <!--/Footer section-->
+  </body>
+</html>
